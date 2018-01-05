@@ -420,15 +420,8 @@
                 </plugins>
             </build>
             
-        <distributionManagement>
-           <repository>
-              <id>test</id>
-              <name>test</name>
-              <url>http://52.77.233.23:8081/nexus/content/repositories/test/</url>
-            </repository>
-        </distributionManagement>
-                    <plugin>
-                        <groupId>org.apache.maven.plugins</groupId>
+           <plugin>
+              <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-checkstyle-plugin</artifactId>
                         <version>2.9.1</version>
                         <configuration>
@@ -473,4 +466,12 @@
             </reporting>
         </profile>
     </profiles>
+...  
+<distributionManagement>
+           <repository>
+              <id>test</id>
+              <name>test</name>
+              <url>http://52.77.233.23:8081/nexus/content/repositories/test/</url>
+            </repository>
+   </distributionManagement>
 </project>
