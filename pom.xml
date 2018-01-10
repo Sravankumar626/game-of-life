@@ -496,7 +496,7 @@
         </profile>
     </profiles>
 </project>
-<project>
+<project ...>
     ...
     <build>
         ...
