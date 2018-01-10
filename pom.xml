@@ -496,7 +496,7 @@
         </profile>
     </profiles>
 </project>
-<project ...>
+<project>
     ...
     <build>
         ...
@@ -534,4 +534,4 @@
        </repository>
   </distributionManagement>
             
-   </project>        
+</project>    
