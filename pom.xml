@@ -164,7 +164,7 @@
                         </storyReport>
                     </configuration>
                 </plugin>
-
+                
             </plugins>
         </pluginManagement>
         <extensions>
@@ -493,14 +493,7 @@
                     </plugin>
                 </plugins>
             </reporting>
-        </profile>
-    </profiles>
-</project>
-<project...>
-    ...
-    <build>
-        ...
-        <plugins>
+            <plugins>
            ...
            <plugin>
                <groupId>org.codehaus.mojo</groudId>
@@ -522,10 +515,9 @@
               </plugin>
           ...  
         </plugins>
-        ...
-     </build>
-    ...
- <distributionManagement>
+        </profile>
+    </profiles>
+     <distributionManagement>
        
        <repository>
            <id>test</id>
@@ -534,5 +526,4 @@
        </repository>
        
   </distributionManagement>
-            
-    </project>
+</project>
