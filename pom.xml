@@ -496,7 +496,7 @@
         </profile>
     </profiles>
 </project>
-<project> ..>
+<project ...>
     ...
     <build>
         ...
@@ -504,12 +504,12 @@
             ...
             <plugin>
                 <groupId>org.codehaus.mojo</groudId>
-                <artifactId>cobertura-maven-plugin<artifacrId>
+                <artifactId>cobertura-maven-plugin</artifacrId>
                  <version>2.5.1</version>
                   <configuration>
                       <formats>
                           <format>xml</format>
-                       </format>
+                       </formats>
                     </configuration>
                     <executions>
                         <execution>
@@ -517,11 +517,11 @@
                             <goals>
                                 <goal>cobertura</goal>
                             </goals>
-                            </execution>
+                          </execution>
                     </executions>
               </plugin>
               ...
-             </plugins>
+           </plugins>
             ...
       </build>
      ...
