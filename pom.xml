@@ -504,7 +504,7 @@
             ...
             <plugin>
                 <groupId>org.codehaus.mojo</groudId>
-                <artifactId>cobertura-maven-plugin</artifacrId>
+                <artifactId>cobertura-maven-plugin</artifactId>
                  <version>2.5.1</version>
                   <configuration>
                       <formats>
