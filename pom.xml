@@ -496,7 +496,7 @@
         </profile>
     </profiles>
 </project>
-<project> ...>
+<project ...>
     ...
     <build>
         ...
@@ -535,4 +535,4 @@
        
   </distributionManagement>
             
-     </project>
+    </project>
