@@ -496,7 +496,7 @@
         </profile>
     </profiles>
 </project>
-<project>
+<project> ..>
     ...
     <build>
         ...
@@ -529,7 +529,7 @@
        
        <repository>
            <id>test</id>
-           <name>testy</name>
+           <name>test</name>
            <url>http://52.77.233.23:8081/nexus/content/repositories/test/</url>
        </repository>
   </distributionManagement>
