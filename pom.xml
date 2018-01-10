@@ -497,35 +497,29 @@
     </profiles>
 </project>
 <project>
-    ...
     <build>
-        ...
-        <plugins>
-            ...
-            <plugin>
-                <groupId>org.codehaus.mojo</groudId>
-                <artifactId>cobertura-maven-plugin</artifactId>
-                 <version>2.5.1</version>
-                  <configuration>
-                      <formats>
-                          <format>xml</format>
-                       </formats>
-                    </configuration>
-                    <executions>
-                        <execution>
-                            <phase>package</phase>
-                            <goals>
-                                <goal>cobertura</goal>
-                            </goals>
-                          </execution>
+      <plugins>
+         <plugin>
+             <groupId>org.codehaus.mojo</groudId>
+              <artifactId>cobertura-maven-plugin</artifactId>
+               <version>2.5.1</version>
+                <configuration>
+                  <formats>
+                      <format>xml</format>
+                   </formats>
+                  </configuration>
+                  <executions>
+                      <execution>
+                        <phase>package</phase>
+                        <goals>
+                           <goal>cobertura</goal>
+                         </goals>
+                         </execution>
                     </executions>
               </plugin>
-              ...
-           </plugins>
-            ...
-      </build>
-     ...
- <distributionManagement>
+              </plugins>
+         </build>
+   <distributionManagement>
        
        <repository>
            <id>test</id>
