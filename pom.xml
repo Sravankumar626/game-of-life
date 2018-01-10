@@ -495,8 +495,6 @@
             </reporting>
         </profile>
     </profiles>
-</project>
- <project ...>
      ...
      <build>
         ...
