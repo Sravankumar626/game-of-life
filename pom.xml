@@ -496,36 +496,3 @@
         </profile>
     </profiles>
 </project>
-<project>
-    <build>
-      <plugins>
-         <plugin>
-             <groupId>org.codehaus.mojo</groudId>
-              <artifactId>cobertura-maven-plugin</artifactId>
-               <version>2.5.1</version>
-                <configuration>
-                  <formats>
-                      <format>xml</format>
-                   </formats>
-                  </configuration>
-                  <executions>
-                      <execution>
-                        <phase>package</phase>
-                        <goals>
-                           <goal>cobertura</goal>
-                         </goals>
-                         </execution>
-                    </executions>
-              </plugin>
-              </plugins>
-         </build>
-   <distributionManagement>
-       
-       <repository>
-           <id>test</id>
-           <name>test</name>
-           <url>http://52.77.233.23:8081/nexus/content/repositories/test/</url>
-       </repository>
-  </distributionManagement>
-            
-</project>
